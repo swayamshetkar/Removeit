@@ -1,12 +1,12 @@
----
-title: Removeit
-emoji: 🐠
-colorFrom: yellow
-colorTo: red
-sdk: docker
-pinned: false
-license: mit
-short_description: Ai powered background remover
+# 🧠 Background Remover (RMBG-1.4)
+
+A FastAPI-based background-removal AI using the **BriaAI RMBG-1.4** model  
+(Improved U²-Net, deployed on Hugging Face Spaces).
+
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+## 🚀 Run locally
+
+```bash
+pip install -r requirements.txt
+uvicorn app:app --reload
